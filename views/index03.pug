@@ -1,0 +1,20 @@
+//- corresponde al archivo 05_arreglos_con_pug.js
+doctype html 
+html
+    head 
+    title #{titulo} 
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="main.css")
+
+body 
+    main 
+        h1 #{titulo} 
+        p #{texto}
+        p Bienvenido al curso basico de Node JS 
+        p Esta pagina se creo usando PUG 
+        figure 
+            img(src=imagen) 
+            figcaption #{texto} 
+        ul
+            each perro in perros
+                li #{perro.raza} &nbsp; | &nbsp;

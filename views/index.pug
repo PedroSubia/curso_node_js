@@ -1,0 +1,20 @@
+//- corresponde al archivo 06_rutas_dinamicas_pug.js
+doctype html 
+html
+    head 
+    title #{titulo} 
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="main.css")
+
+body 
+    main 
+        h1 #{titulo} 
+        p Bienvenido al curso basico de Node JS 
+        p Esta pagina se creo usando PUG 
+        figure 
+            img(src=imagen) 
+            figcaption #{texto} 
+        ul
+            each perro in perros
+                li 
+                    a(href="perro/"+perro.raza) #{perro.raza} &nbsp; | &nbsp;
