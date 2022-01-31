@@ -1,0 +1,26 @@
+{
+    "name": "curso-node-js",
+    "version": "1.0.0",
+    "description": "proyecto final curso de introduccion a node js",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.17.2",
+        "pug": "^3.0.2"
+    },
+    "devDependencies": {}, 
+    "scripts": { 
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PedroSubia/curso_node_js.git"
+    }, 
+    "author": "Pedro Elias Subia",
+    "license": "ISC", 
+    "bugs": { 
+        "url": "https://github.com/PedroSubia/curso_node_js/issues"
+    },
+    "homepage": "https://github.com/PedroSubia/curso_node_js#readme"
+  }
+  
